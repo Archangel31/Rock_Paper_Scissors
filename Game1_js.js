@@ -10,17 +10,17 @@ const scissors=document.getElementById("c3");
 
 function f1()
 {
-    document.getElementById("c1").style.border = "4px solid red";
+    document.getElementById("c1").style.border = "4px solid blue";
     setTimeout(function(){document.getElementById("c1").style.border = "0px";},120);  
 }
 function f2()
 {
-    document.getElementById("c2").style.border = "4px solid red";
+    document.getElementById("c2").style.border = "4px solid blue";
     setTimeout(function(){document.getElementById("c2").style.border = "0px";},120);  
 }
 function f3()
 {
-    document.getElementById("c3").style.border = "4px solid red";
+    document.getElementById("c3").style.border = "4px solid blue";
     setTimeout(function(){document.getElementById("c3").style.border = "0px";},120);  
 }
 
